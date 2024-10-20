@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true"
+          name="D:/Mufti/Data/SQA RPA/Coding/testng-saucedemo/src/test/java/com/juaracoding/LoginTest.java">
+        <classes>
+            <class name="com.juaracoding.LoginTest">
+                <methods>
+                    <include name="testValidLogin"/>
+                    <include name="testUsernameRequired"/>
+                    <include name="testPasswordRequired"/>
+                    <include name="testInvalidUser"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test verbose="2" preserve-order="true"
+          name="D:/Mufti/Data/SQA RPA/Coding/testng-saucedemo/src/test/java/com/juaracoding/ProductTest.java">
+        <classes>
+            <class name="com.juaracoding.ProductTest">
+                <methods>
+                    <include name="testAddProductToCart"/>
+                    <include name="testRemoveProductFromCart"/>
+                    <include name="testFailedAddProduct"/>
+                    <include name="testFailedRemoveProduct"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
